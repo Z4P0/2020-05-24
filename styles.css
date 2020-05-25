@@ -1,0 +1,28 @@
+* {
+  box-sizing: inherit;
+}
+body {
+  background-color: #111;
+  color: #ebebeb;
+  margin: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 4em;
+}
+
+svg {
+  display: block;
+  fill: currentColor;
+  /* max-width: 500px; */
+  /* margin: auto; */
+}
+
+circle {
+  fill:  transparent;
+  stroke: currentColor;
+}
