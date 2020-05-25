@@ -12,6 +12,7 @@ for (var i = 0; i < 12; i++) {
   circle.setAttribute('r',
     Math.floor(Math.random() * sizes[sizes.length-1]) + sizes[0]
   );
+  circle.setAttribute('style', `animation-delay: .${i * 100}s`)
 
   svgParent.appendChild(circle);
 }
