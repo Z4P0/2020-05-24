@@ -18,6 +18,7 @@ body {
 svg {
   display: block;
   fill: currentColor;
+  width:  100%;
   /* max-width: 500px; */
   /* margin: auto; */
 }
